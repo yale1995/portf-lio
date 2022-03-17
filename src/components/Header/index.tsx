@@ -5,11 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 
 export function Header() {
-  const [nav, setNav] = useState(true);
-
-  function handleToggleClassMenu() {
-    setNav(!nav);
-  }
 
   return (
     <header className={styles.headerContainer}>

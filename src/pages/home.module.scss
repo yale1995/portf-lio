@@ -1,7 +1,7 @@
 .contentContainer {
     max-width:1120px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 0 0 4rem;
     height: calc(100vh - 5rem);
     display: flex;
     align-items: center;
@@ -28,6 +28,9 @@
         span{
             color:#ff57b2;
             font-weight:bold;
+            animation-name: animacao;
+            animation-duration: 6s;
+            animation-iteration-count: 6;
         }
     }
 
@@ -37,6 +40,12 @@
         margin-top:1.5rem;
 
        
+    }
+
+    @keyframes animacao {
+        0% {color: #ff57b2}
+        50% {color: yellow}
+        100%{color: #ff57b2}
     }
 
 }
