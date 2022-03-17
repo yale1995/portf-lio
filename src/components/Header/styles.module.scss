@@ -1,18 +1,68 @@
 .headerContainer {
     height: 5rem;
-    border-bottom: 1px solid #29292e;
+    border-bottom: 0.0625rem solid #29292e;
 
-    @media(max-width:940px) {
-        .headerContent {
-            display: block;
+    @media(max-width:58.75rem) {
+        .headerContent{
+            nav{
+                display: none;
+            }
+
+            .btn {
+                display: block;
+                background: none;
+                color: white;
+    
+            }
+            
+            .menu {
+                position: fixed;
+                top: 5rem;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                left:0;
+                text-align: center;
+                display: flex;
+                background: #ff57b2;
+                margin-left:0;
+                
+
+                display: block;
+
+                a{
+                    display: block;
+                    
+
+                    & + a {
+                        margin-left: 0;
+                    }
+
+                    &.active::after {
+                        content: "";
+                        height: 0.1875rem;
+                        border-radius: .1875rem .1875rem 0 0;
+                        width: 100%;
+                        position: absolute;
+                        bottom: 1px;
+                        left: 0;
+                        background: white;
+                    }       
+
+
+                    
+                }
+                
+            }
         }
+        
     
     }
     
 }
 
 .headerContent {
-    max-width: 1120px;
+    max-width: 70rem;
     height: 5rem;
     margin: 0 auto;
     padding: 0 4rem;
@@ -53,8 +103,8 @@
 
             &.active::after {
                 content: "";
-                height: 3px;
-                border-radius: 3px 3px 0 0;
+                height: 0.1875rem;
+                border-radius: .1875rem .1875rem 0 0;
                 width: 100%;
                 position: absolute;
                 bottom: 1px;
@@ -62,10 +112,15 @@
                 background: #ff57b2;
             }
         }
+
     }
 
     img{
         width: 18rem;
+    }
+
+    label{
+        display: none;
     }
     
 }

@@ -14,9 +14,7 @@ export default function Projetos() {
           <div>
             <h2>Ignews - Conteúdo digital para assinantes</h2>
             <p>
-              Aplicação para venda de conteúdo digital por assinatura. Com Ignews seus clientes
-              poderão comprar pacotes de assinatura diretamente pelo site. A aplicação conta
-              com sistema de autenticação para usuários.
+            Tecnologias utilizadas: ReactJS, NextJS, TypeScript, SASS, Styled-Components, HTML e CSS.
             </p>
             <a href='https://github.com/yale1995/ignews'>Ver no reposiório</a>
           </div>
@@ -26,9 +24,7 @@ export default function Projetos() {
           <div>
             <h2>dt money - Controle de finanças</h2>
             <p>
-              Aplicação para venda de conteúdo digital por assinatura. Com Ignews seus clientes
-              poderão comprar pacotes de assinatura diretamente pelo site. A aplicação conta
-              com sistema de autenticação para usuários.
+            Tecnologias utilizadas: ReactJS, TypeScript, SASS, Styled-Components, HTML e CSS.
             </p>
             <a href='https://github.com/yale1995/dt-money'>Ver no reposiório</a>
           </div>
@@ -38,9 +34,7 @@ export default function Projetos() {
           <div>
             <h2>To-do List - Gestão de atividades</h2>
             <p>
-              Aplicação para venda de conteúdo digital por assinatura. Com Ignews seus clientes
-              poderão comprar pacotes de assinatura diretamente pelo site. A aplicação conta
-              com sistema de autenticação para usuários.
+              Tecnologias utilizadas: ReactJS, TypeScript, SASS, Styled-Components, HTML e CSS.
             </p>
             <a href='https://github.com/yale1995/To-do-list'>Ver no reposiório</a>
           </div>
@@ -50,9 +44,7 @@ export default function Projetos() {
           <div>
             <h2>dev finance$ - Controle de finanças</h2>
             <p>
-              Aplicação para venda de conteúdo digital por assinatura. Com Ignews seus clientes
-              poderão comprar pacotes de assinatura diretamente pelo site. A aplicação conta
-              com sistema de autenticação para usuários.
+              Tecnologias utilizadas: JavaScript, HTML e CSS.  
             </p>
             <a href='https://github.com/yale1995/dev.finances'>Ver no reposiório</a>
           </div>

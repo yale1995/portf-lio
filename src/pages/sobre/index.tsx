@@ -12,13 +12,19 @@ export default function Sobre() {
         <div className={styles.sobre}>
           <h1>Sobre mim</h1>
           <p>
-            Nordestino, 26 anos e apaixonado por tecnologia. <br/><br/>
-            Graduado Bacharel em Ciências e Tecnologia pela Universidade Federal do Rio Grande do
-            Norte (2018) e Engenheiro Mecânico (2020) pela mesma instituição. <br/><br/>
-            Hoje atuo como engenheiro front-end desenvolvendo aplicações web.
-            Experiências de desenvolvimento utilizando as tecnologias React JS,
-            Styled Components, Node JS, SASS, HTML, CSS, JavaScript e
-            TypeScript.
+            Nordestino, 26 anos. Um apaixonado por tecnologia! <br/><br/>
+            Graduado Engenheiro Mecânico (2020) e Bacharel em Ciências e Tecnologia (2018) ambas
+            pela Universidade Federal do Rio Grande do Norte. <br/><br/>
+
+            Implementei meus primeiros projetos com programação ainda na universidade
+            com as linguagens C++ e Python. E desde então sigo em constante evolução desenvolvendo
+            tecnologia. <br/><br/>
+
+            Hoje atuo como engenheiro de software front-end com desenvolvimento de aplicações para web
+            acessíveis, responsivas e performáticas.
+
+            Minhas principais stacks são ReactJS, NextJS, SASS, Styled-Components, TypeScript, JavaScript, CSS,
+            HTML.
           </p>
         </div>
       </main>

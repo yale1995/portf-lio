@@ -23,4 +23,16 @@
         line-height: 2rem;
         font-size: 1.125rem;
     }
+
+    @media(max-width:58.75rem){
+        h1{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .postContent {
+            margin-bottom: 2rem;
+        }
+    }
+
 }

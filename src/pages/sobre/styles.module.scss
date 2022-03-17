@@ -1,10 +1,11 @@
 .container {
-    max-width: 1120px;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0 4rem;
+
 }
 .sobre {
-    max-width: 1120px;
+    max-width: 70rem;
     margin: 5rem 1rem 0;
     margin-top: 2rem;
     line-height: 2rem;
@@ -18,9 +19,22 @@
         text-align: start;
         margin-bottom: 1.5rem;
         padding: 0 0 0.5rem 0;
-        border-bottom: 3px solid #ff57b2;
-        width: 250px;
+        border-bottom: .1875rem solid #ff57b2;
+        width: 15.625rem;
     }
-   
+
+    @media(max-width:58.75rem){
+
+        h1{
+            font-size: 2rem;
+            
+        }
+
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+
+  
         
 }

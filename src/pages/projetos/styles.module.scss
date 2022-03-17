@@ -1,7 +1,9 @@
 .container {
-    max-width: 1120px;
+    max-width: 70rem;
     margin: 1.5rem auto;
     padding: 0 5rem;
+
+    
     
 
     h1{
@@ -10,8 +12,37 @@
         text-align: start;
         margin-bottom: 1.5rem;
         padding: 0 0 0.5rem 0;
-        border-bottom: 3px solid #ff57b2;
+        border-bottom: .1875rem solid #ff57b2;
         width: 300px;
+    }
+
+    @media(max-width:58.75rem){
+
+        h1{
+            font-size: 2rem;
+            width: 250px;
+        }
+
+        .content {
+            width: 100%;
+
+            img {
+                margin:0 1rem 0 0;
+                width: 40%;
+            }
+
+            div {
+                h2{
+                    font-size:0.8rem;
+                }
+
+                p{
+                    font-size:0.8rem;
+                }
+
+            }
+
+        }
     }
     
 
@@ -21,7 +52,7 @@
     border-bottom: 1px solid #29292e;
     display: flex;
     justify-content: space-between; 
-    align-items: center;   
+    align-items: center;
     
     img {
         width: 30%;
@@ -35,10 +66,10 @@
         width: 100%;
 
         h2{
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
         p {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
 
         a {

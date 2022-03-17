@@ -3,14 +3,21 @@ import { ActiveLink } from "../ActiveLink";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
+import {TiThMenu} from 'react-icons/ti'
+import {IoCloseSharp} from 'react-icons/io5'
 
 export function Header() {
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
+
+
+
 
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
         <img src="/images/yale.svg" alt="Logotipo"></img>
-        <nav>
+        <label className={styles.btn} onClick={() => setMenuIsOpen(!menuIsOpen)}>{menuIsOpen? <IoCloseSharp/> : <TiThMenu />}</label>
+        <nav className={menuIsOpen ? styles.menu : ''}>
           <ActiveLink activeClassName={styles.active} href="/" prefetch>
             <a>Home</a>
           </ActiveLink>
