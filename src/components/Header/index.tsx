@@ -17,7 +17,7 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/images/yale.svg" alt="Logotipo"></img>
         <label className={styles.btn} onClick={() => setMenuIsOpen(!menuIsOpen)}>{menuIsOpen? <IoCloseSharp/> : <TiThMenu />}</label>
-        <nav className={menuIsOpen ? styles.menu : ''}>
+        <nav onClick={() => setMenuIsOpen(false)} className={menuIsOpen ? styles.menu : ''}>
           <ActiveLink activeClassName={styles.active} href="/" prefetch>
             <a>Home</a>
           </ActiveLink>
