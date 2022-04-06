@@ -1,0 +1,45 @@
+.sectionContainer {
+  background: #1a1d23;
+}
+
+.contentContainer {
+  max-width: 1120px;
+  align-items: center;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 100px 0;
+}
+
+.textContainer {
+  color: white;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.textIcon {
+  color: #ff2359;
+  max-width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  span {
+    font-size: 24px;
+    color: #ff2359;
+
+    display: flex;
+    align-items: center;
+  }
+}

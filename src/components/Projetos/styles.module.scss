@@ -1,0 +1,133 @@
+.sectionContainer {
+  background: #1a1d23;
+
+  .textContainer {
+    text-align: center;
+
+    padding-top: 100px;
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #fff;
+    }
+    p {
+      font-size: 24px;
+      color: #fff;
+
+      margin-top: 10px;
+
+      span {
+        color: #ff2359;
+      }
+    }
+  }
+}
+
+.contentContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 7px;
+  grid-column-gap: 15px;
+
+  text-align: center;
+
+  div {
+
+    img {
+      width: 100%;
+      transition: filter 0.2s;
+
+      border-radius: 6px;
+
+      &:hover {
+        filter: brightness(0.1);
+      }
+    }
+  }
+}
+
+.devfinance {
+  position: relative;
+
+  &:hover::before {
+    content: "devfinance$";
+    color: #ff2359;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    top: 45%;
+    font-size: 32px;
+    font-weight: bold;
+
+  }
+}
+
+.dtmoney {
+  position: relative;
+
+  &:hover::before {
+    content: "dtmoney";
+    color: #ff2359;
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    top: 45%;
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+.todo {
+  position: relative;
+
+  &:hover::before {
+    content: "to.do list";
+    color: #ff2359;
+    position: absolute;
+    z-index: 1;
+    left: 33%;
+    top: 42%;
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+
+.ignews {
+  position: relative;
+
+  &:hover::before {
+    content: "ignews";
+    color: #ff2359;
+    position: absolute;
+    z-index: 1;
+    left: 38%;
+    top: 42%;
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+
+.btnContainer {
+  text-align: center;
+  padding-bottom: 100px;
+
+  button {
+    padding: 15px 15px;
+    border-radius: 10px;
+
+    background: #f9c143;
+    color: white;
+    font-weight: bold;
+    transition: filter 0.2s;
+
+    border: 1px solid #f9c143;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+}

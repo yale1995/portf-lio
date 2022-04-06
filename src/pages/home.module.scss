@@ -1,60 +1,65 @@
-.contentContainer {
-    max-width:1120px;
-    margin: 0 auto;
-    padding: 0 0 0 4rem;
-    height: calc(100vh - 5rem);
+.sectionContainer {
+  background: #1a1d23;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+
+  .contentContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1120px;
 
-    
+    margin: 0 auto;
+  }
 }
 
-.hero {
-    max-width: 600px;
-    margin: 0 1rem;
+.textContainer {
 
 
-    > span {
-        font-size: 1.5rem;
-        font-weight: bold;
+  h1 {
+    color: white;
+    font-size: 56px;
+
+    span {
+      color: #f9c143;
     }
+  }
 
-    h1{
-        font-size: 4.5rem;
-        line-height: 4.5rem;
-        font-weight: 900;
-        margin-top:2.5rem;
+  p {
+    color: #fff;
+    font-size: 24px;
 
-        span{
-            color:#ff57b2;
-            font-weight:bold;
-            animation-name: animacao;
-            animation-duration: 6s;
-            animation-iteration-count: 6;
-        }
+    margin-top: 20px;
+  }
+
+  button {
+    margin-top: 25px;
+    font-size: 24px;
+    background: #f9c143;
+
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+
+    border: 1px solid #f9c143;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.6);
     }
+  }
+}
 
-    p {
-        font-size:1.5rem;
-        line-height: 2.25rem;
-        margin-top:1.5rem;
+.imageContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
 
-       
-    }
-
-    @keyframes animacao {
-        0% {color: #ff57b2}
-        50% {color: yellow}
-        100%{color: #ff57b2}
-    }
-
-    @media(max-width:58.75rem){
-
-        h1{
-            font-size:2.4rem;
-            line-height: 4rem;
-        }
-    }
-
+  img {
+    width: 100%;
+    padding-bottom: 7rem;
+  }
 }
