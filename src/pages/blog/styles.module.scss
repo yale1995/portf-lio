@@ -1,15 +1,20 @@
 .container {
-    max-width: 100%;
+    // max-width: 100%;
     height: 100vh;
 
 
-    background: #1a1d23;    
+    background: #1a1d23;   
+
+    @media(max-width: 650px) {
+        width:684px;
+        height: 171vh
+    }
 }
 
 .posts {
     max-width: 720px;
     margin: 0 auto 0 ;
-    padding: 5rem 0;
+    padding: 5rem 2rem;
 
     a {
         display: block;
