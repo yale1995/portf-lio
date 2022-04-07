@@ -1,5 +1,9 @@
 .sectionContainer {
     background: #fff;
+
+    @media (max-width: 650px) {
+        width: 683px;
+    }
 }
 .contentContainer {
     text-align: center;

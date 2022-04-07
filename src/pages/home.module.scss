@@ -5,6 +5,11 @@
   display: flex;
   align-items: center;
 
+  @media(max-width: 650px) {
+    width:683px;
+    height: 150vh
+  }
+
   .contentContainer {
     display: flex;
     align-items: center;
@@ -12,16 +17,26 @@
     width: 1120px;
 
     margin: 0 auto;
+
+    @media(max-width: 900px) {
+      display: flex;
+      flex-direction:column-reverse;
+      justify-content: center;
+    }
+
   }
 }
 
 .textContainer {
-
+  padding-left: 1.5rem;
 
   h1 {
     color: white;
-    font-size: 56px;
+    font-size: 60px;
 
+    @media(max-width: 900px) {
+      font-size: 50px;
+    }
     span {
       color: #f9c143;
     }
@@ -54,12 +69,22 @@
 }
 
 .imageContainer {
+  padding-right: 1.5rem;
   display: flex;
   justify-content: flex-end;
   width: 40%;
 
+  @media (max-width: 900px) {
+    display: flex;
+    justify-content: center;
+  }
+
   img {
     width: 100%;
     padding-bottom: 7rem;
+
+    @media(max-width: 900px) {
+      width: 150%;
+    }
   }
 }

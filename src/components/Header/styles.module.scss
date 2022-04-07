@@ -3,24 +3,77 @@
     border-bottom: 0.0625rem solid #29292e;
 
     background: #1A1D23;
-    color: #ffffff;
+    color: #ffffff;  
 
-
+    @media(max-width: 700px) {
+        width:max-content;
+    }
 }
 
 .headerContent {
     max-width: 70rem;
     height: 5rem;
     margin: 0 auto;
+    padding: 0 1.5rem;
     
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    .menu {
+        position: fixed;
+        top: 5rem;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        left:0;
+        text-align: center;
+        display: flex;
+        background: #ff57b2;
+        margin-left:0;                
+
+        display: block;
+        visibility: hidden;
+        transition: visibility 0.2s;
+
+        // @media(max-width: 900px) {
+        //     visibility: visible; 
+        // }
+            
+
+        a{
+            display: block;
+                
+
+            & + a {
+                margin-left: 0;
+            }
+
+            &.active::after {
+                content: "";
+                height: 0.1875rem;
+                border-radius: .1875rem .1875rem 0 0;
+                width: 100%;
+                position: absolute;
+                bottom: 1px;
+                left: 0;
+                background: white;
+            }       
+
+
+                
+        }
+            
+    }  
+
 
     nav {
         margin-left: 5rem;
         height: 5rem;
+
+        // @media(max-width: 900px) {
+        //     display: none;
+        // }
 
         a {
             
@@ -65,8 +118,26 @@
     img{
         width: 18rem;
         cursor: pointer;
-    }
-  
+    }  
 }
+
+.menuIcon{
+    display: none;
+    cursor: pointer;
+
+    .icon{
+        width: 80px;
+        height: 28px;
+    }
+
+    // @media(max-width: 900px) {
+    //     display: block;
+        
+    // }
+}
+
+
+
+
 
 

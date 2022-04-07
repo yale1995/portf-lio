@@ -1,5 +1,9 @@
 .sectionContainer {
   background: #1a1d23;
+
+  @media (max-width: 650px) {
+    width: 683px;
+  }
 }
 
 .contentContainer {
@@ -11,10 +15,17 @@
   justify-content: space-around;
 
   padding: 100px 0;
+
+  @media(max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .textContainer {
   color: white;
+  margin-bottom: 50px;
 
   h1 {
     font-size: 32px;
